@@ -5,7 +5,7 @@ of new customers for their advertising campaigns or plan their strategy accordin
 ## [Supermarket mall segmentation](#Overview-2)
 ### Overview 1
 The dataset had 10695 rows and 11 columns with mixed features (Numerical and Categorical). I dropped 3 variables that had leakage features and high cardinality for the segmentation
-problem. Any mssing values were replaced through the Median Imputation method. I opted for K-Prototypes algorithm, which is a hybrid clustering algorithm that can process both
+problem. Any mssing values were replaced through the Median Imputation method. I opted for **K-Prototypes** algorithm, which is a hybrid clustering algorithm that can process both
 categorial and numerical simultaneously data as opposed to the K-Mean which is only feasible with numerical values and K-Modes which works best with the categorical values
 
 ---
