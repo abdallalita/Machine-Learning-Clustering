@@ -1,7 +1,7 @@
 ## Introduction
 The projects are about Customer Segmentation for a certain Motor vehicle company and a Supermarket Mall both of which are planning to enter new markets with their existing products. I aim to assist the sales and Marketing team in predicting the right group
 of new customers for their advertising campaigns or plan their strategy accordingly.
-## [Motor vehicle company Segmentation](#Overview-1)
+## [Motor vehicle company segmentation](#Overview-1)
 ## [Supermarket mall segmentation](#Overview-2)
 ### Overview 1
 The dataset had 10695 rows and 11 columns with mixed features (Numerical and Categorical). I dropped 3 variables that had leakage features and high cardinality for the segmentation
