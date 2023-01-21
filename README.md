@@ -5,10 +5,10 @@ of new customers for their advertising campaigns or plan their strategy accordin
 ## [Supermarket mall segmentation](#Overview-2)
 ### Overview 1
 The dataset had 10695 rows and 11 columns with mixed features (Numerical and Categorical). I dropped 3 variables that had leakage features and high cardinality for the segmentation
-problem. Any mssing values were replaced through the Median Imputation method. I opted for *K-Prototypes* algorithm, which is a hybrid clustering algorithm that can process both categorial and numerical simultaneously data as opposed to the K-Means which is only feasible with numerical values and K-Modes which works best with the categorical values.
-*K-Means* is a centroid based clustering algorithm that divides the data points of the entire population into k clusters each having an almost equal number of data points.
+problem. Any mssing values were replaced through the Median Imputation method. I opted for **K-Prototypes** algorithm, which is a hybrid clustering algorithm that can process both categorial and numerical simultaneously data as opposed to the K-Means which is only feasible with numerical values and K-Modes which works best with the categorical values.
+**K-Means** is a centroid based clustering algorithm that divides the data points of the entire population into k clusters each having an almost equal number of data points.
 It is not applicable to categorical data as categorical data are discrete and do not have any natural origin. So computing Euclidean distance for such as space is not meaningful.
-While training, *K-Prototypes* algorithm will train the categorical features using *K-Modes* algorithm and the remaining numerical features will be trained using *K-Means* algorithm
+While training, **K-Prototypes** algorithm will train the categorical features using **K-Modes** algorithm and the remaining numerical features will be trained using **K-Means** algorithm
 
 ---
 ### Overview 2
