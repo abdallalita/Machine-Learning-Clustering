@@ -13,7 +13,7 @@ categorial and numerical simultaneously data as opposed to the K-Mean which is o
 The dataset had 200 rows and 5 columns.I dropped two columns that had irrelevant data for the problem. The dataset had no missing values.
 I opted for K-Means algorithm due to the fact that the dataset had all numerical features feasible with the K-Means algorithm. I created a pipeline that consisted of
 the `StandarScaler()` transformer and the `K-Means()` algorithm. I finally applied the Principal Component Analysis (PCA) to perform dimensionality reduction. The data
-was transformed from  highe dimension, say 5D to a lower one, 2D, while maintaining as much information as possible.
+was transformed from  higher dimension, say 5D to a lower one, 2D, while maintaining as much information as possible.
 
 
 
